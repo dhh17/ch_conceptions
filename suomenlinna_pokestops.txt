@@ -1,0 +1,60 @@
+Ancient Artillery, 60.149048, 24.973161, gym
+Old Anti-aircraft gun, 60.149048, 24.973161, gym
+Seagull With Fish, 60.148412, 24.976423, stop
+Пушка-царёнок, 60.149683, 24.978665, stop
+Pikku-Mustasaari, 60.149475, 24.979352
+Sveaborg Guidance Map, 60.148717, 24.980425, stop
+Viaporin Merisotakoulu, 60.149582, 24.981326, stop
+Modern Coastal Gun, 60.148348, 24.983086, stop
+Helsinki, 60.148962, 24.983537, stop
+The Fortress of Suomenlinna, 60.149037, 24.984438, stop
+Suomenlinna Main Entrance, 60.148941, 24.985253, stop
+Venäläinen Kauppiaskortteli, 60.148236, 24.985092, stop
+The Bell Tower, 60.147926, 24.986047, stop
+Suomenlinna Light House, 60.147926, 24.986465, gym
+Three Crowns Gate, 60.147419, 24.984459, stop
+Kirkkopuisto, 60.147318, 24.986111, stop
+Upseerikerho, 60.146982, 24.989051, stop
+Suomenlinnan Kirjasto, 60.146533, 24.986819, stop
+Viaporin koirapuisto, 60.146351, 24.990767, stop
+Paarlastihuone, 60.145977, 24.987044, stop
+Anker, 60.145641, 24.987580, stop
+War Museum, 60.145742, 24.988878, stop
+Lelumuseo, 60.145827, 24.991303, stop
+Vaasan Kasarmi, 60.145058, 24.989940, stop
+Dock Gateway, 60.145480, 24.982537, stop
+Vessel's Propeller, 60.145662, 24.983889, stop
+Giant Chimney, 60.145192, 24.985820, stop
+Historical Aircraft Factory Facade, 60.144936, 24.985981, stop
+Suojelusenkeli, 60.145075, 24.979887, stop
+Nooanarkki 1867, 60.145342, 24.981187, stop
+Suomenlinnan tullimuseo, 60.144545, 24.981744, stop
+Tenalji von Fersen, 60.144828, 24.982999, stop
+The Grave of Augustin Ehrensvärd, 60.144369, 24.985155, gym
+Ruotsinsalmi Monument, 60.144139, 24.986442, stop
+Bastion Wall, 60.143973, 24.987579, stop
+Jortikka Of Mother Gaia, 60.143930, 24.983148, stop
+Tykki Suomenlinnassa, 60.143834, 24.985401, stop
+Bastioni Wrede, 60.143396, 24.987826, stop
+Ancient Fortress Cannon, Ancient Fortress Cannon, stop
+Suomenlinna Summer Theatre, 60.142969, 24.985273, stop
+Pipers Park, 60.142761, 24.985713, stop
+Vesikko, 60.142590, 24.989479, gym
+Suomenlinnan ruutivarasto, 60.142115, 24.983342, stop
+Suomenlinna Sveaborg, 60.142190, 24.986217, stop
+Tiira in Boots, 60.141180, 24.985037, stop
+Susisaari, 60.140683, 24.986518, stop
+Suomenlinnan Uimaranta, 60.140929, 24.984683, stop
+Coastal Battery, 60.140288, 24.984479, stop
+Bastioni Carpelan, 60.140256, 24.988813, stop
+Kustaanmiekka, 60.139919, 24.987150, stop
+The Secret Hidden Shire, 60.139615, 24.985627, stop
+Kuninkaanportti, 60.139663, 24.989822, stop
+Coastal Cannon on Suomenlinna, 60.139225, 24.984897, stop
+Walhalla, 60.138963, 24.989532, stop
+Coastal Gun #1880, 60.138691, 24.985326, stop
+Sveaborg Fortress, 60.138638, 24.989746, stop
+Coastal Cannon, 60.138360, 24.987053, stop
+Coastal Artillery, 60.138531, 24.988587, stop
+Vanha 1800-luvun Kanuuna, 60.138531, 24.988587, gym
+Small Lighthouse, 60.137901, 24.990625, stop
