@@ -9,19 +9,23 @@ import re
 import requests
 
 lemmatizer_url = "http://demo.seco.tkk.fi/las/baseform"
-# might be a good idea to use ARPA with "cgen" parameter
+# might be a good idea to use ARPA with "cgen" parameter instead, though adds complexity (n-grams, hard to ensure the word order of the original text)
 
 src_dir = "geocaches/"
 dst_dir = "geocache-descriptions/"
 
-count = 0
+if os.path.isdir(dst_dir):
+    print "Destination dir (" + dst_dir + ") already exists. Please delete it in order not to override previous data."
+    exit()
+
+os.mkdir(dst_dir)
+
 for file in os.listdir(src_dir):
     if file.endswith(".gpx"):
         tree = ET.parse(src_dir + file)
         root = tree.getroot()
 
         for cache in root.findall("{http://www.topografix.com/GPX/1/0}wpt"):
-            count = count + 1
 
             texts = []
             cache_inner = cache.find("{http://www.groundspeak.com/cache/1/0/1}cache")
@@ -39,10 +43,15 @@ for file in os.listdir(src_dir):
                     if sentence != "":
                         response = requests.post(lemmatizer_url, data={'text': sentence})
                         if response.status_code == 200:
-                            resp_json = response.json()
+                            try:
+                                resp_json = response.json()
+                            except ValueError:
+                                print "Warning: Non-JSON response."
+                                continue
                             if resp_json.has_key("locale") and resp_json.has_key("baseform"):
+                                filename = cache.get("lat") + "_" + cache.get("lon") + ".txt"
                                 locale = resp_json['locale']
                                 if not os.path.isdir(dst_dir + locale):
                                     os.mkdir(dst_dir + locale)
-                                file = open(dst_dir + locale + '/' + str(count) + ".txt", 'a')
+                                file = open(dst_dir + locale + '/' + filename, 'a')
                                 file.write(resp_json['baseform'].encode("utf-8") + ". ")
