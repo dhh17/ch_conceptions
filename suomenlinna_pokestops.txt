@@ -36,7 +36,7 @@ Bastion Wall, 60.143973, 24.987579, stop
 Jortikka Of Mother Gaia, 60.143930, 24.983148, stop
 Tykki Suomenlinnassa, 60.143834, 24.985401, stop
 Bastioni Wrede, 60.143396, 24.987826, stop
-Ancient Fortress Cannon, Ancient Fortress Cannon, stop
+Ancient Fortress Cannon, 60.143058, 24.985269, stop
 Suomenlinna Summer Theatre, 60.142969, 24.985273, stop
 Pipers Park, 60.142761, 24.985713, stop
 Vesikko, 60.142590, 24.989479, gym
