@@ -29,6 +29,7 @@ for file in os.listdir(src_dir):
 
             texts = []
             cache_inner = cache.find("{http://www.groundspeak.com/cache/1/0/1}cache")
+            #TODO: it seems that not all caches have descriptions (next line throws exception)
             texts.append(cache_inner.find("{http://www.groundspeak.com/cache/1/0/1}short_description").text.encode("utf-8"))
             texts.append(cache_inner.find("{http://www.groundspeak.com/cache/1/0/1}long_description").text.encode("utf-8"))
 
