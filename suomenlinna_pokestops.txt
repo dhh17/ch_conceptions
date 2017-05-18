@@ -2,7 +2,7 @@ Ancient Artillery, 60.149048, 24.973161, gym
 Old Anti-aircraft gun, 60.149048, 24.973161, gym
 Seagull With Fish, 60.148412, 24.976423, stop
 Пушка-царёнок, 60.149683, 24.978665, stop
-Pikku-Mustasaari, 60.149475, 24.979352
+Pikku-Mustasaari, 60.149475, 24.979352, stop
 Sveaborg Guidance Map, 60.148717, 24.980425, stop
 Viaporin Merisotakoulu, 60.149582, 24.981326, stop
 Modern Coastal Gun, 60.148348, 24.983086, stop
