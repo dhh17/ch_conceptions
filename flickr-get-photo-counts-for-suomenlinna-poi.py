@@ -6,8 +6,10 @@ import requests
 
 API_KEY = ""
 
+# ~The time Pokemon was introduced in Finland: 6th July 2016 = unix time 1467763200
+
 flickr_api_base_url = "https://api.flickr.com/services/rest/"
-flickr_url = flickr_api_base_url + "?method=flickr.photos.search&format=json&nojsoncallback=1&api_key=" + API_KEY + "&radius=0.05"
+flickr_url = flickr_api_base_url + "?method=flickr.photos.search&format=json&nojsoncallback=1&api_key=" + API_KEY + "&radius=0.05&min_taken_date=1467763200"
 
 src_file = open('suomenlinna-objects.csv')
 dst_file = open('suomenlinna-objects-flickr-counts.csv', 'w')
